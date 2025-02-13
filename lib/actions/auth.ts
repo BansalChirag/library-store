@@ -1,3 +1,4 @@
+"use server";
 import { signIn } from "@/auth";
 import { db } from "@/database";
 import { usersTable } from "@/database/schema";
